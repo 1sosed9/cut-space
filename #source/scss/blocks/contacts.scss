@@ -1,0 +1,50 @@
+.contacts {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 95px;
+  background-image: url(../img/svg/bg-footer.svg);
+  background-size: cover;
+  color: #fff;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 743px;
+    height: 372px;
+    background-image: url(../img/svg/footer-oval.svg);
+    background-repeat: no-repeat;
+    background-size: initial;
+
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 478px;
+    height: 547px;
+    background-image: url(../img/png/girl.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: 79px;
+  }
+}
+
+.contact__info {
+  max-width: 360px;
+}
+
+.contact__title {
+  margin-bottom: 15px;
+}
+
+.contact__text {
+  margin-bottom: 30px;
+  max-width: 342px;
+}

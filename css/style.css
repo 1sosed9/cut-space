@@ -590,3 +590,105 @@ img {
 .card-testimonial:hover .card-testimonial__city {
   color: #f78434;
 }
+
+.contacts {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 95px;
+  background-image: url(../img/svg/bg-footer.svg);
+  background-size: cover;
+  color: #fff;
+}
+.contacts::before {
+  content: "";
+  display: block;
+  width: 743px;
+  height: 372px;
+  background-image: url(../img/svg/footer-oval.svg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+}
+.contacts::after {
+  content: "";
+  display: block;
+  width: 478px;
+  height: 547px;
+  background-image: url(../img/png/girl.png);
+  background-repeat: no-repeat;
+  background-size: initial;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: 79px;
+}
+
+.contact__info {
+  max-width: 360px;
+}
+
+.contact__title {
+  margin-bottom: 15px;
+}
+
+.contact__text {
+  margin-bottom: 30px;
+  max-width: 342px;
+}
+
+.footer {
+  padding-top: 86px;
+  padding-bottom: 82px;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info {
+  max-width: 300px;
+}
+
+.footer__logo {
+  margin-bottom: 15px;
+}
+
+.footer__info-text {
+  margin-bottom: 40px;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.footer__socials a:hover img {
+  opacity: 0.8;
+}
+
+.footer__nav {
+  display: flex;
+  column-gap: 85px;
+}
+
+.footer__nav-block {
+  font-size: 14px;
+}
+.footer__nav-block li {
+  margin-bottom: 13px;
+}
+.footer__nav-block a {
+  transition: 0.2s all;
+}
+.footer__nav-block a:hover {
+  color: #f78434;
+}
+
+.footer__nav-block-title {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
